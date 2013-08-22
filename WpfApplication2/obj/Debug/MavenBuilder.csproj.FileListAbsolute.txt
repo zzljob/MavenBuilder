@@ -1,0 +1,24 @@
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\Builder.baml
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\Builder.g.cs
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\MavenBuilder.Properties.Resources.resources
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\MavenBuilder.csproj.GenerateResource.Cache
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\bin\Debug\MavenBuilder.exe
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\bin\Debug\MavenBuilder.pdb
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\Builder.baml
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\Builder.g.cs
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\MavenBuilder_MarkupCompile.cache
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\MavenBuilder.g.resources
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\MavenBuilder.Properties.Resources.resources
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\MavenBuilder.csproj.GenerateResource.Cache
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\MavenBuilder.exe
+C:\Users\wb-zhangzhiliang.z\Desktop\MavenBuilder\WpfApplication2\obj\Debug\MavenBuilder.pdb

@@ -1,0 +1,64 @@
+﻿<Window x:Class="MavenBuilder.Builder"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Builder" Height="680" Width="1000" Background="#FF333333" WindowStyle="None" MouseDown="Window_MouseDown" AllowsTransparency="True" WindowStartupLocation="CenterScreen" BorderThickness="1" BorderBrush="Black" ResizeMode="CanMinimize" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" >
+    
+    <StackPanel Width="Auto" Orientation="Vertical" >
+    
+        <DockPanel Width="Auto" Height="50" Name="Panel_head">
+            <Label Height="Auto" HorizontalContentAlignment="Left" FontSize="18" Foreground="#ffffff"  VerticalContentAlignment="Center">打包助手程序</Label>
+            <StackPanel DockPanel.Dock="Right" Height="30" Width="Auto" HorizontalAlignment="Right" Orientation="Horizontal" VerticalAlignment="Top">
+                <Button Width="20" Height="Auto" Background="#ffffff" Name="Button_min" Click="Button_min_Click">-</Button>
+                <Button Width="20" Height="Auto" Background="#ffffff" Name="Button_max" Click="Button_max_Click">M</Button>
+                <Button Width="20" Height="Auto" Background="#ffffff" Name="Button_close" Click="Button_close_Click">X</Button>
+            </StackPanel>            
+        </DockPanel>
+        <StackPanel Orientation="Horizontal" Width="Auto" Height="100" Name="Panel_step">
+            <Button Name="Button_tap_setting" HorizontalAlignment="Right" Width="100" Height="40" Margin="10,0,10,0" Click="Button_tap_setting_Click">环境设置</Button>            
+            <Button Name="Button_tap_build" Width="100" Height="40" Margin="10,0,10,0" Click="Button_tap_build_Click">Maven打包</Button>
+        </StackPanel>
+                
+        <StackPanel Orientation="Vertical"  Name="Panel_body_setting" Visibility="Visible">
+            <StackPanel Orientation="Horizontal" Margin="0,70,0,10">
+                <Label Width="260" Height="Auto" Foreground="#ffffff" HorizontalContentAlignment="Right">JDK安装路径:</Label>
+                <TextBox Name="Textbox_java_path" Width="456" Margin="10,0,10,0" Background="#33333333" Foreground="#ffffff" IsEnabled="True" ToolTip="JDK安装路径"></TextBox>
+                <Button Height="23" Name="Button_java_path" Width="Auto" Click="Button_java_path_Click">设置</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,10">
+                <Label Width="260" Height="Auto" Foreground="#ffffff" HorizontalContentAlignment="Right">Maven安装路径:</Label>
+                <TextBox Name="Textbox_maven_path" Width="456" Margin="10,0,10,0" Background="#33333333" Foreground="#ffffff"></TextBox>
+                <Button Height="23" Name="Button_maven_path" Width="Auto" Click="Button_maven_path_Click">设置</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,10">
+                <Label Width="260" Height="Auto" Foreground="#ffffff" HorizontalContentAlignment="Right">Maven配置文件路径:</Label>
+                <TextBox Name="Textbox_maven_set_path" Width="456" Margin="10,0,10,0" Background="#33333333" Foreground="#ffffff"></TextBox>
+                <Button Height="23" Name="Button_maven_set_path" Width="Auto" Click="Button_maven_set_path_Click">设置</Button>
+            </StackPanel>       
+        
+            <StackPanel Orientation="Horizontal" Margin="0,70,0,10">
+                <Label Width="260" Height="Auto" Foreground="#ffffff" HorizontalContentAlignment="Right">Maven项目路径:</Label>
+                <TextBox Name="Textbox_project_path" Width="456" Margin="10,0,10,0" Background="#33333333" Foreground="#ffffff" ></TextBox>
+                <Button Height="23" Name="Button_project_path" Width="Auto" Click="Button_project_path_Click">设置</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,10">
+                <Label Width="260" Height="Auto" Foreground="#ffffff" HorizontalContentAlignment="Right">项目打包配置目录:</Label>
+                <TextBox Name="Textbox_project_set_path" Width="456" Margin="10,0,10,0" Background="#33333333" Foreground="#ffffff"></TextBox>
+                <Button Height="23" Name="Button_project_set_path" Width="Auto" Click="Button_project_set_path_Click">设置</Button>
+            </StackPanel>            
+            
+        </StackPanel>
+        
+        <StackPanel Orientation="Vertical" Name="Panel_body_build" Visibility="Collapsed">           
+            <WrapPanel Height="Auto" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,130,0,10" >                
+                <Label Name="Label_setp_check" Margin="10,0" FontSize="16" Background="#FF4AA2EA" Foreground="#ffffffff">检查设置</Label>
+                <Label Name="Label_setp_backup" Margin="10,0" FontSize="16" Background="#FF4AA2EA" Foreground="#ffffffff">备份项目配置</Label>
+                <Label Name="Label_setp_copy" Margin="10,0" FontSize="16" Background="#FF4AA2EA" Foreground="#ffffffff">拷贝项目配置</Label>
+                <Label Name="Label_setp_build" Margin="10,0" FontSize="16" Background="#99999999" Foreground="#ffffffff">开始打包</Label>
+                <Label Name="Label_setp_recovery" Margin="10,0" FontSize="16" Background="Transparent" Foreground="#44444444">恢复项目配置</Label>                
+                <Label Name="Label_setp_result" Margin="10,0" FontSize="16" Background="Transparent" Foreground="#44444444">打包成功</Label>
+            </WrapPanel>
+            <Button Name="Button_build" HorizontalAlignment="Center" FontSize="20" Margin="0,70,0,0" Click="Button_build_Click">开始打包</Button>
+        </StackPanel>
+
+    </StackPanel>
+</Window>

@@ -1,0 +1,12 @@
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\Window1.baml
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\Window1.g.cs
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\wb-zhangzhiliang.z\Documents\Visual Studio 2008\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
